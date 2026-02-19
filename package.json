@@ -1,0 +1,27 @@
+{
+  "name": "cli-todo-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+  "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surajsingh9389/CLI-Todo-Manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/surajsingh9389/CLI-Todo-Manager/issues"
+  },
+  "homepage": "https://github.com/surajsingh9389/CLI-Todo-Manager#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
