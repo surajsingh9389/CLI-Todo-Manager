@@ -6,6 +6,7 @@ import { errorHandler } from "./middlewares/errorMiddleware.js";
 const app = express();
 const PORT = 3000;
 
+// parse the incoming json
 app.use(express.json());
 app.use("/todos", todoRoutes);
 
